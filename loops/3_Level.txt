@@ -1,0 +1,17 @@
+1 - Iterate 0 to 10 using for loop, do the same using while and do while loop
+2 - Iterate 10 to 0 using for loop, do the same using while and do while loop
+3 - Iterate 0 to n using for loop
+4 - Use for loop to iterate from 0 to 100 and print only even numbers
+5 - Use for loop to iterate from 0 to 100 and print only odd numbers
+6 - Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+    The sum of all numbers from 0 to 100 is 5050.
+7 - Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+    The sum of all evens from 0 to 100 is 2550. And the sum of all odds from 0 to 100 is 2500.
+8 - Develop a small script which generate array of 5 random numbers
+9 - Write a script which generates a random hexadecimal number.
+    ex: '#ee33df'
+10 - Write a script which generates a random rgb color number.
+    rgb(240,180,80)
+
+
+damrcha: 4, 5
