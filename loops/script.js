@@ -58,17 +58,11 @@ for (let i = 0; i <= n; i++) {
 // console.log("The sum of all odds from 0 to 100 is " + sumOdds + ".");
 
 //5 - Use for loop to iterate from 0 to 100 and print only odd numbers
-// let sumEvens = 0;
-// let sumOdds = 0;
-// for (let i = 0; i <= 100; i++) {
-//   if (i % 2 === 0) {
-//     sumEvens += i;
-//   } else {
-//     sumOdds += i;
-//   }
-// }
-// console.log("The sum of all evens from 0 to 100 is " + sumEvens + ".");
-// console.log("The sum of all odds from 0 to 100 is " + sumOdds + ".");
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
 
 //6 - Use for loop to iterate from 0 to 100 and print the sum of all numbers.
 // The sum of all numbers from 0 to 100 is 5050.
