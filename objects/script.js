@@ -256,10 +256,11 @@ function averageRating(productId) {
     );
     return totalRating / product.ratings.length;
   }
-  return 0; // Return 0 if there are no ratings.
+  return 0;
 }
 
-// 12. Create a function called likeProduct
+// 12 - Create a function called likeProduct. This function will helps to like to the product if it is not liked and remove like if it was liked.
+
 function likeProduct(productId, userId) {
   const product = products.find((product) => product._id === productId);
   if (product) {
@@ -271,22 +272,3 @@ function likeProduct(productId, userId) {
     }
   }
 }
-
-// // Example usage:
-// console.log(
-//   signUp({
-//     _id: "newuser1",
-//     username: "NewUser",
-//     email: "newuser@newuser.com",
-//     password: "password123",
-//     createdAt: "08/01/2020 10:30 AM",
-//     isLoggedIn: false,
-//   })
-// );
-
-// console.log(signIn("newuser@newuser.com", "password123"));
-
-// rateProduct("eedfcf", "newuser1", 4);
-// console.log(averageRating("eedfcf"));
-
-// likeProduct("eedfcf", "newuser1");
